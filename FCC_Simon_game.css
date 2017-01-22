@@ -1,0 +1,217 @@
+.yellowSlice {
+    position: relative;
+}
+.yellowSlice > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 12em solid #ff0;
+    border-right: none;
+    border-top: none;
+    border-bottom-left-radius: 12em;
+    left: 0em;
+    top: 0em;
+}
+
+.redSlice {
+    position: relative;
+}
+.redSlice > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 12em solid #f00;
+    border-left: none;
+    border-bottom: none;
+    border-top-right-radius: 12em;
+    left: 12em;
+    top: -12em;
+}
+
+.blueSlice {
+    position: relative;
+}
+.blueSlice > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 12em solid #00f;
+    border-left: none;
+    border-top: none;
+    border-bottom-right-radius: 12em;
+    left: 12em;
+    top: 0em;
+}
+
+.greenSlice {
+    position: relative;
+}
+.greenSlice > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 12em solid #0f0;
+    border-right: none;
+    border-bottom: none;
+    border-top-left-radius: 12em;
+    left: 0em;
+    top: -12em;
+}
+
+.innerCircle {
+    position: relative;
+}
+.innerCircle > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 6em solid #eee;
+    border-radius: 6em;
+    left: 6em;
+    top: -6em;
+}
+
+.outerRing {
+    position: relative;
+}
+.outerRing > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 14em solid #333;
+    border-radius: 14em;
+    left: -2em;
+    top: -14em;
+}
+
+.leftRectangle {
+    position: relative;
+}
+.leftRectangle > i {
+    position: absolute;
+    display: inline-block;
+    width: 6em;
+    height: 1em;
+    background-color: #333;
+    left: 0em;
+    top: -0.5em;
+}
+
+.rightRectangle {
+    position: relative;
+}
+.rightRectangle > i {
+    position: absolute;
+    display: inline-block;
+    width: 6em;
+    height: 1em;
+    background-color: #333;
+    left: 18em;
+    top: -0.5em;
+}
+
+.topRectangle {
+    position: relative;
+}
+.topRectangle > i {
+    position: absolute;
+    display: inline-block;
+    width: 1em;
+    height: 6em;
+    background-color: #333;
+    left: 12em;
+    top: -12em;
+}
+
+.bottomRectangle {
+    position: relative;
+}
+.bottomRectangle > i {
+    position: absolute;
+    display: inline-block;
+    width: 1em;
+    height: 6em;
+    background-color: #333;
+    left: 12em;
+    top: 6em;
+}
+
+.innerRing {
+    position: relative;
+}
+.innerRing > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 7em solid #333;
+    border-radius: 7em;
+    left: 5em;
+    top: -7em;
+}
+
+#displayContainer {
+  position: relative;
+  display: table;
+  width: 5em;
+  height: 4em;
+  left: 9.5em;
+  top: -5em;
+  background-color: #ffab40;
+  border-radius: 1em;
+}
+
+#stepsInSerieAndMsgDisplay {
+  display: table-cell;
+  text-align: center !important;
+  vertical-align: middle;
+  display: block;
+}
+
+#switchContainer {
+  position: relative;
+  left: 11em;
+  top: -1.5em;
+  height: 4.5em;
+  width: 3em;
+}
+
+#startContainer {
+  position: relative;
+  left: 8.5em;
+  top: -9.5em;
+}
+
+.btn {
+  border-radius: 12em;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 0.8em;
+  background: #795548;
+  padding: 0.8em 1.6em 0.8em 1.6em;
+  text-decoration: none;
+  width: 6em;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.mainDiv {
+  margin: auto;
+  margin-top: 16em;
+  width: 24em;
+}
